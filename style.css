@@ -1,0 +1,223 @@
+
+
+
+
+*{
+
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+
+
+
+
+}
+
+p{
+
+    margin: 0;
+}
+
+.container{
+
+    display: flex;
+
+    
+
+    width: 100% ;
+    height: 40rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 234, 227);
+
+    
+}
+
+
+.wrapper{
+
+width: 50%;
+height: 30rem;
+    background: white;
+    border-radius: 1rem;
+    display: flex;
+   
+}
+
+.img-wrapper-left{
+
+width: 50%;
+height: 30rem;
+
+
+}
+
+.picture{
+
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+
+    width: 100%;
+    height: 100%;
+}
+
+
+/*****************right code  beagn*/
+.right{
+
+    width: 50%;
+
+    height: 30rem;
+
+    margin: 2rem 2rem;
+}
+
+
+/* .design-right{
+
+    margin-top: 2rem 2rem;
+
+} */
+
+
+
+.h2-container{
+margin-bottom: 2rem;
+
+    
+}
+
+
+
+.perfume{
+    text-transform: uppercase;
+    color: rgb(146, 147, 151);
+    font-family: sans-serif;
+    font-size: 1rem;
+   
+    
+}
+
+.h1-container{
+
+color: rgb(29, 34, 40);
+font-weight: 400;
+
+
+}
+
+.h1-wrapper{
+
+
+    line-height: 2rem;
+}
+
+
+.p-container{
+
+width: 75%;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 1.5rem 0;
+
+}
+
+
+.text-right{
+   
+
+    font-size: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5rem;
+    color: rgb(154, 154, 168);
+}
+
+
+
+.booton-toggle{
+
+display:flex ;
+justify-content: center;
+margin: 0;
+width: 70%;
+align-items: center;
+
+}
+
+.bottom{
+
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    width: 100%;
+    margin: 0;
+}
+
+/* .price-parent{
+
+
+
+    display: flex;
+    justify-content: flex-start;
+} */
+
+
+.price{
+
+    margin: 0;
+
+  
+
+    left: 0;
+    font-size: 1.7rem;
+    color: rgb(62, 130, 105);
+}
+
+.span-content{
+
+
+    color: rgb(146, 147, 151);
+    
+}
+
+
+.card-and-icon{
+
+width: 80%;
+background-color: rgb(62, 130, 105);
+display: flex;
+justify-content:center;
+align-items: center;
+margin: 1.5rem 0 1rem 0;
+height: 2.4rem;
+border-radius: 0.5rem;
+cursor:pointer;
+
+}
+
+.card-bottom{
+
+
+    width: 80%;
+
+    display: flex;
+
+    justify-content: center;
+    text-align: center;
+	
+}
+
+
+.icon{}
+
+
+.text-card{
+
+    text-align: center;
+    color: white;
+    margin-left: 0.5rem;
+	
+    
+}
